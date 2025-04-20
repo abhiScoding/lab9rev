@@ -1,4 +1,5 @@
 <launch>
     <node name="pub_dist" pkg="lab9rev" type="bays_dist.py" output="screen" />
+    <node name="vis_dist" pkg="lab9rev" type="vis_dist.py" output="screen" />
 
 </launch>
